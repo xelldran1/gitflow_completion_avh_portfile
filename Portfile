@@ -4,7 +4,7 @@
 PortSystem              1.0
 PortGroup               github 1.0
 
-github.setup            petervanderdoes git-flow-completion develop
+github.setup            petervanderdoes git-flow-completion 0.5.1
 fetch.type              git
 
 name                    git-flow-completion-avh
@@ -13,7 +13,7 @@ platforms               darwin
 maintainers             robsonpeixoto.com:robinho openmaintainer
 license                 {Copyright LGPL}
 supported_archs         noarch
-revision                5
+revision                6
 
 description             Bash, Zsh and fish completion support for git-flow
 long_description        ${description}
